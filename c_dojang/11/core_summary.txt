@@ -1,0 +1,9 @@
+문자는 작은 따옴표
+
+int, no suffix
+long, l or L
+unsigned int, ul or UL
+
+
+long long, ll or LL
+
