@@ -14,6 +14,8 @@ int main()
 //
 	char c2 = getchar();
 	putchar(c2);
+	char c3 = getchar();
+	putchar(c3);
 
 	return 0;
 }
