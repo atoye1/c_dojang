@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    long long ***m = malloc(sizeof(long long **) * 2);
+
+    m[1][2][4] = 100;
+
+    printf("%lld\n", m[1][2][4]);
+
+    free(m);
+
+    return 0;
+}
